@@ -1,15 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import {Routes,Route} from 'react-router-dom'
+import Onboarding from './Pages/Onboarding'
+import StatusBar from './Component/StatusBar'
+import MainDashboard from './Pages/MainDashboard'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div >Hello word</div>
-    </>
+
+      <div className=' bg-slate-900 flex justify-center'>
+          <div className='App w-[393px] h-[852px]  text-white'>
+                <StatusBar/>
+                <Routes>
+                  <Route path="/" element={<Onboarding/>}/>
+                  <Route path="/Dashboard" element={<MainDashboard/>}/>
+                </Routes>
+          </div>
+      </div>
+   
   )
 }
 
