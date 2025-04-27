@@ -1,0 +1,94 @@
+.Heading {
+    font-weight: 700;
+}
+
+.Icon {
+    color: #D1F462;
+}
+
+.IconColor {
+    background-color: #292929;
+}
+
+.flight {
+    background-color: #3643FB;
+    color: #FFFFFF;
+}
+
+.Navbar {
+    background-color: #1D1F24;
+}
+
+.Home {
+    border-radius: 100px;
+    background-color: #D1F46233;
+    color: #D3F462;
+}
+
+.Plus {
+    color: #D3F462;
+}
+
+.See {
+    color: #D1F462
+}
+
+.Hotel {
+    background-color: #4D4D4D;
+}
+
+.Activity {
+    background-color: #333333;
+    border-radius: 12px;
+}
+
+.Activity_Btn1 {
+    border: 1px;
+    background-color: #D3F462;
+    border-radius: 8px;
+    color: black;
+}
+
+.Activity_Btn2 {
+    color: #D3F462;
+    border-radius: 8px;
+    border: 1px solid #D3F462;
+}
+
+.rotate {
+    transform: rotate(90deg);
+    /* transform-origin: bottom center; */
+    /* display: inline-block; */
+    /* margin-right: 10px; */
+    background-color: #D3F462;
+    color: black;
+    border-radius: 8px 0 0 8px;
+    padding: 7px;
+    margin-left:-9px;
+}
+
+.Date{
+    background-color: #292929;
+    border-radius: 8px;
+    padding:4px 8px 4px 8px;
+}
+
+.Highlight{
+    border:1px solid #D3F462;
+}
+
+.Data1{
+    background-color: #D3F462;
+    color:#1D1F24;
+    padding:4px;
+    border-radius: 8px;
+    gap:10px;
+}
+
+.Data2{
+    color:#D1F462;
+}
+
+.Data3{
+    background-color: #4D4D4D;
+}

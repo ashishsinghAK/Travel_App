@@ -4,5 +4,20 @@
 
 .App{
     background-color: #0B0809;
-    
+    font:Mont;
+}
+
+.Logo{
+    background-color: rgba(255, 115, 57, 1);
+    gap:10px;
+}
+.Intro1{
+    font-weight: 800;
+}
+.Intro2{
+    font-weight: 500;
+}
+
+.Main{
+    background-color: rgba(11, 8, 9, 1);
 }
