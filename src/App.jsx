@@ -6,7 +6,7 @@ import MainDashboard from './Pages/MainDashboard';
 
 function App() {
   return (
-    <div className="bg-slate-900 flex justify-center items-center min-h-screen">
+    <div className=" flex justify-center items-center min-h-screen">
       <div className="App max-w-[393px] w-screen  text-white flex flex-col overflow-x-hidden">
         <StatusBar />
         <Routes>

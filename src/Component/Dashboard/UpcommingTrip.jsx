@@ -74,31 +74,40 @@ const UpcommingTrip = () => {
 
       {/* Flight info */}
 
-      <div className='flight h-[122px] flex justify-between p-4 mt-[4vh] rounded-lg'>
-          {/* left part  */}
-          <div>
-            <p className='font-[700] text-[16px] min-w-[145px] mn-h-[24px]'>Flight Details</p>
-            <p className='font-[400] text-[14px] min-w-[145px] mn-h-[20px]'>26.01.2025, 10:50 am</p>
+      <div className='flight w-[353px] h-[122px] flex justify-between p-4 mt-[4vh] rounded-lg overflow-hidden'>
+        {/* Left part */}
+        <div>
+          <p className='font-[700] text-[16px] min-w-[145px] mn-h-[24px]'>Flight Details</p>
+          <p className='font-[400] text-[14px] min-w-[145px] mn-h-[20px]'>26.01.2025, 10:50 am</p>
 
-            <div className='flex items-center'>
-              <span>
-                <h2 className='font-[700] text-[16px] min-w-[66px] mn-h-[16px]'>DEL</h2>
-                <h2 className='font-[400] text-[12px] min-w-[68px] mn-h-[16px]'>Delhi, India</h2>
-              </span>
-              <IoIosArrowRoundForward className='min-w-[13.54px] mn-h-[17.8px]'/>
-              <span>
-              <h2>NRT</h2>
-              <h2>Narita, Tokyo</h2>
-              </span>
-            </div>
+          <div className='flex items-center'>
+            <span>
+              <h2 className='font-[700] text-[16px] min-w-[66px] mn-h-[16px]'>DEL</h2>
+              <h2 className='font-[400] text-[12px] min-w-[68px] mn-h-[16px]'>Delhi, India</h2>
+            </span>
+            <IoIosArrowRoundForward className='min-w-[13.54px] mn-h-[17.8px]' />
+            <span>
+              <h2 className='font-[700] text-[16px] min-w-[66px] mn-h-[16px]'>NRT</h2>
+              <h2 className='font-[400] text-[12px] min-w-[68px] mn-h-[16px]'>Narita, Tokyo</h2>
+            </span>
           </div>
+        </div>
 
-          {/* right part  */}
-          <div>
-            <span className='font-[800] text-[10px] min-w-[34px] min-h-[16px] underline'>see all</span>
-            {/* <img src={img2} alt="" className='font-[800] text-[10px] min-w-[367.81px] min-h-[381.53px] mt-[-3]'/> */}
+        {/* Right part */}
+        <div className='flex flex-col justify-between items-end'>
+         
+          <div className='w-[367.81px] h-[381.53px] ml-20 mb-24'>
+            <img
+              src={img2}
+              alt="Flight Image"
+              className='object-center rounded-lg ml-[-5em] mt-[-7vh]'
+            />
           </div>
+        </div>
       </div>
+
+
+
 
 
     </div>

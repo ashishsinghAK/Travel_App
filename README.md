@@ -1,12 +1,69 @@
-# React + Vite
+Project Folder Structure 
+    /src
+  ├── /components
+      /Dashboard
+  │   ├── Accommodation.jsx
+  │   ├── Activities.jsx
+  │   ├── Destination.jsx
+  │   ├── Navbar.jsx
+  │   ├── UpcomingTrip.jsx
+  ├── /pages
+  │   ├── Onboarding.jsx
+  │   ├── MainDashboard.jsx
+  ├── App.jsx
+  ├── /assets
+  │   ├── /images
+  │   └── /icons
+  ├── /styles
+  │   ├── main.css
+  └── index.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Explanation(Folder Structure)--
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#    /components: Contains reusable UI components that are part of the MainDashboard such as accommodation details,         activities, and the navigation bar.
 
-## Expanding the ESLint configuration
+        =)Accommodation.jsx: Component to display accommodation-related information.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+        =)Activities.jsx: Component to display activities the user can do at the destination.
+
+        =)Destination.jsx: Displays information about the selected destination.
+
+        =)Navbar.jsx: The top navigation bar component for the app.
+
+        =)UpcomingTrip.jsx: A component to show upcoming trip details.
+
+
+#  /pages: Contains the different pages of the application.
+
+        =)Onboarding.jsx: The onboarding page where users input basic details like duration, number of members, and destination.
+
+        =)MainDashboard.jsx: The main dashboard where the trip information is displayed, divided into various sections like accommodations, flights, and activities.
+
+        =)App.jsx: The main component that handles routing between the Onboarding and MainDashboard pages.
+
+
+#    /styles: Contains global and page-specific styles.
+
+#    index.js: The entry point to the application, where ReactDOM is rendered.
+
+
+
+# Applicaton Flow-------
+
+1 Onboarding page--
+        A) Users are first presented with the Onboarding page where they can enter:
+
+           a) Duration of the trip.
+           b)Number of members traveling.
+           c) Destination.
+
+
+2 Main Dashboard
+        B) Once the user is redirected to the Main Dashboard, the following sections are displayed:
+
+            a) Accommodation: Displays accommodation options for the selected destination.
+            b)Flight Details: Displays flight details including departure and arrival information.
+            c)Activities: Shows a list of activities available at the destination.
+            d)Navbar: Provides navigation options like the ability to go back to the onboarding page or view upcoming trips.
+            e)Upcoming Trip: Displays an overview of the user's upcoming trip, including dates, members, and destination.
