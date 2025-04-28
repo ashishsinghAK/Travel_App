@@ -18,6 +18,22 @@ Project Folder Structure
   │   ├── main.css
   └── index.js
 
+
+# PROJECT SETUP-------
+        1. Clone the repository('git clone https://github.com/ashishsinghAK/Travel_App.git')
+        2. Project Directory ('cd Travel')
+        3. Install Dependencies('npm install')
+        4. Start the development server('npm run dev')
+
+# Tech Stack----------
+        1. React.js (Frontend library)
+        2. Vite (Build tool for fast development)
+        3. TailwindCSS (Utility-first CSS framework)
+        4. React Router (Routing between pages)
+        5. React Icons (Icon library)
+
+
+
 # Explanation(Folder Structure)--
 
 
@@ -49,21 +65,20 @@ Project Folder Structure
 
 
 
-# Applicaton Flow-------
+# Application Flow-------
 
 1 Onboarding page--
         A) Users are first presented with the Onboarding page where they can enter:
 
            a) Duration of the trip.
-           b)Number of members traveling.
+           b) Number of members traveling.
            c) Destination.
-
 
 2 Main Dashboard
         B) Once the user is redirected to the Main Dashboard, the following sections are displayed:
 
             a) Accommodation: Displays accommodation options for the selected destination.
-            b)Flight Details: Displays flight details including departure and arrival information.
-            c)Activities: Shows a list of activities available at the destination.
-            d)Navbar: Provides navigation options like the ability to go back to the onboarding page or view upcoming trips.
-            e)Upcoming Trip: Displays an overview of the user's upcoming trip, including dates, members, and destination.
+            b) Flight Details: Displays flight details including departure and arrival information.
+            c) Activities: Shows a list of activities available at the destination.
+            d) Navbar: Provides navigation options like the ability to go back to the onboarding page or view upcoming trips.
+            e) Upcoming Trip: Displays an overview of the user's upcoming trip, including dates, members, and destination.
